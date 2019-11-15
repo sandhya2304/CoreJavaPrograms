@@ -44,7 +44,7 @@ public class IntQueue
 	{
 		if(isFull())
 		{
-			return true;
+			return false;
 		}else
 		{
 			total++;
@@ -70,7 +70,7 @@ public class IntQueue
 		{
 			for(int i=0;i<total;i++)
 			{
-				System.out.println(" "+qq[f]);
+				System.out.print(" "+qq[f]);
 				f =(f+1)% size;
 			}
 		}
