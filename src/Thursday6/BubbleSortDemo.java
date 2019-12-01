@@ -11,6 +11,8 @@ public class BubbleSortDemo
 		for(int i =0; i < arr.length;i++)
 		{
 			int flag = 0;
+		
+			//-i coz if sorted then not go towards last element after that second last also
 			for(int j=0; j <arr.length-1-i;j++)
 			{
 				if(arr[j] > arr[j+1])
