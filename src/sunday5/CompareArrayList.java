@@ -1,7 +1,6 @@
 package sunday5;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class CompareArrayList
 {
@@ -22,15 +21,15 @@ public class CompareArrayList
 		
 		ArrayList<String> al3 = new ArrayList<String>();
 		
-		List<String> ll = al1.subList(0, 4);
-		System.out.println(ll);
+		///List<String> ll = al1.subList(0, 4);
+		//System.out.println(ll);
 		
 		
 		for(String s:al1)
 		{
-			al3.add(al2.contains(s)? "yes" : "no");
-			System.out.println(al3);
-		}
+			al3.add(al2.contains(s)? "yes" : "no");		
+		}	
+		System.out.println(al3);
 
 	}
 
