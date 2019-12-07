@@ -50,6 +50,14 @@ public class IntStack
 		return (top == stack.length-1);	
 	}
 	
+	public void print()
+	{
+		System.out.println("display----");
+		for(int i= top;i >=0;i--)
+		{
+			System.out.println(stack[i]);
+		}	
+	}
 	
 
 }

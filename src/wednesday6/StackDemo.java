@@ -14,7 +14,9 @@ public class StackDemo {
 		
 		System.out.println(ss.pop());
 		System.out.println(ss.pop());
-System.out.println(ss.isEmpty());
+       System.out.println(ss.isEmpty());
+	
+	
 	}
 
 }
