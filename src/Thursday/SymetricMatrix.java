@@ -67,16 +67,9 @@ public class SymetricMatrix
 			{
 				System.out.println("given matrix is unsysmmetric");
 			}
-			
-			
-			
+				
 		}
 		
-		
-		
-		
-		
-
 	}
 
 }

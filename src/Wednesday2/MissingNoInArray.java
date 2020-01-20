@@ -1,4 +1,4 @@
-package Wednesday16;
+package Wednesday2;
 
 public class MissingNoInArray 
 {

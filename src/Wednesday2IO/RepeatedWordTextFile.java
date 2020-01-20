@@ -10,12 +10,9 @@ import java.util.Set;
 public class RepeatedWordTextFile {
 
 	public static void main(String[] args) 
-	{
-		
-		
+	{	
 		HashMap<String,Integer> wordCount = new HashMap<String, Integer>();
 		BufferedReader br = null;
-		
 		
 		try
 		{
@@ -38,7 +35,7 @@ public class RepeatedWordTextFile {
 						wordCount.put(w,wordCount.get(w)+1 );
 					}else
 					{
-						//otheerwise giev value 1
+						//otherwise give value 1
 						wordCount.put(w, 1);
 					}
 				}

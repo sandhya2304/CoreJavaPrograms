@@ -1,4 +1,4 @@
-package Wednesday16;
+package Wednesday2;
 
 import java.util.Iterator;
 import java.util.TreeSet;

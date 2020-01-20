@@ -24,7 +24,7 @@ public class HeapSortDemo
 		}
 	}
 	
-	void sort(int[] arr)
+	public void sort(int[] arr)
 	{
 		
 		int leng = arr.length;
