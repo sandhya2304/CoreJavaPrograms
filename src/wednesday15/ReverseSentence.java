@@ -8,7 +8,7 @@ public class ReverseSentence
 	{
 		Scanner sc =new Scanner(System.in);
 		System.out.println("Enter the string");
-		String inp = sc.next();
+		String inp = sc.nextLine();
          String output = reverseS(inp);
          System.out.println("input--->"+inp);
 		System.out.println("output-->"+output);
@@ -22,7 +22,7 @@ public class ReverseSentence
 		
 		for(int i =words.length-1;i >= 0;i--)
 		{
-			outputString = outputString+words[i]+" ";
+			outputString = outputString+words[i]+"";
 		}
 		
 		return outputString;
