@@ -37,7 +37,7 @@ public class RepeatdAndNon
 		{
 			if(wordCount.get(cc)==1)
 			{
-				System.out.println("non repeated character"+input+" is "+cc);
+				System.out.println("non repeated character "+input+" is "+cc);
 				break;
 			}
 		}
@@ -47,7 +47,7 @@ public class RepeatdAndNon
 				{
 					if(wordCount.get(cc) > 1)
 					{
-						System.out.println(" repeated character"+input+" is "+cc);
+						System.out.println(" repeated character "+input+" is "+cc);
 						break;
 					}
 				}
